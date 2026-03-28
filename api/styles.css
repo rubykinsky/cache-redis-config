@@ -1,0 +1,68 @@
+.cache-redis-config {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cache-redis-config h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.cache-redis-config form {
+  margin-top: 20px;
+}
+
+.cache-redis-config form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.cache-redis-config form input[type="text"], 
+.cache-redis-config form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.cache-redis-config form button[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cache-redis-config form button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+.cache-redis-config ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cache-redis-config li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.cache-redis-config li:last-child {
+  border-bottom: none;
+}
+
+.cache-redis-config li a {
+  color: #337ab7;
+  text-decoration: none;
+}
+
+.cache-redis-config li a:hover {
+  color: #23527c;
+}
